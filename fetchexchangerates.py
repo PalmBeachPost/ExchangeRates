@@ -2,8 +2,12 @@ from pyquery import PyQuery
 import requests
 import os
 from collections import OrderedDict
+import creds
 
-url = 'https://openexchangerates.org/api/latest.json?app_id=19ea47b186354bf381c8d538ba77fe11'
+## Get a API key at https://www.openexchangerates.org and put it into the right spot in creds.py
+
+url = 'https://openexchangerates.org/api/latest.json?app_id=' + creds.access['apikey']
+
 # Available currencies are at http://docs.openexchangerates.org/docs/supported-currencies
 r = requests.get(url)
 json = r.json()
