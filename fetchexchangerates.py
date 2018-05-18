@@ -15,12 +15,12 @@ rates = json["rates"]
 
 currencies = (
     ('Euro*', 'EUR', ''),
-    ('Argentina', 'ARS', 'pesos'),
     ('Australia', 'AUD', 'dollars'),
     ('Brazil', 'BRL', 'reals'),
     ('Britain', 'GBP', 'pounds'),
     ('Canada', 'CAD', 'dollars'),
-    ('China', 'CNY', 'yuan'),
+    ('Chile', 'CLP', 'pesos'),
+	('China', 'CNY', 'yuan'),
     ('Denmark', 'DKK', 'kroner'),
     ('Egypt', 'EGP', 'pounds'),
     ('Hong Kong', 'HKD', 'dollars'),
