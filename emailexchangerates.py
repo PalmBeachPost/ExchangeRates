@@ -1,7 +1,7 @@
 import emails
 import os
 
-toaddr = ["soneill@pbpost.com", "emendez@pbpost.com", "mstucka@pbpost.com", "asilverman@pbpost.com", "jwinans@pbpost.com"]
+toaddr = ["emendez@pbpost.com", "mstucka@pbpost.com", "asilverman@pbpost.com", "jwinans@pbpost.com"]
 
 # toaddr = ["mstucka@pbpost.com", "stucka@gmail.com"]
 
